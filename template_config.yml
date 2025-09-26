@@ -1,0 +1,10 @@
+llm:
+- api_key: # LLM API key
+  model: # LLM model
+  provider: # LLM provider
+  semaphore: 200 # Semaphore for LLM requests, control the max number of concurrent requests
+env:
+  db:
+    enabled: true # Whether to enable database
+    db_type: sqlite
+  home_dir: mobisim-data/agentsociety_data
